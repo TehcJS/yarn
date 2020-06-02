@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_310 net/minecraft/client/MinecraftGame
+CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 	FIELD field_1687 world Lnet/minecraft/class_638;
 	FIELD field_1689 framebuffer Lnet/minecraft/class_276;
 	FIELD field_1690 settings Lnet/minecraft/class_315;
@@ -30,6 +30,7 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftGame
 	FIELD field_1727 soundLoader Lnet/minecraft/class_1144;
 	FIELD field_1728 renderTickCounter Lnet/minecraft/class_317;
 	FIELD field_1731 entityRenderManager Lnet/minecraft/class_898;
+	FIELD field_1732 runDir Lnet/minecraft/class_302;
 	FIELD field_1735 fpsCounter I
 	FIELD field_1737 firstPersonRenderer Lnet/minecraft/class_759;
 	FIELD field_1738 currentFps I
@@ -37,6 +38,7 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftGame
 	FIELD field_1742 itemRenderer Lnet/minecraft/class_918;
 	FIELD field_1744 connectedToRealms Z
 	FIELD field_1745 resourceManager Lnet/minecraft/class_3296;
+	FIELD field_1746 connection Lnet/minecraft/class_2535;
 	FIELD field_1747 crashReport Lnet/minecraft/class_128;
 	FIELD field_1751 blockColorMap Lnet/minecraft/class_324;
 	FIELD field_1753 assetDirectory Ljava/io/File;
@@ -88,6 +90,7 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftGame
 	METHOD method_1521 reloadResources ()V
 	METHOD method_1522 getFramebuffer ()Lnet/minecraft/class_276;
 	METHOD method_1526 getLanguageManager ()Lnet/minecraft/class_1076;
+	METHOD method_1527 startTimerHackThread ()V
 	METHOD method_1530 isDemo ()Z
 	METHOD method_1531 getTextureManager ()Lnet/minecraft/class_1060;
 	METHOD method_1533 onShutdown ()V

@@ -166,6 +166,7 @@ CLASS net/minecraft/class_1009 net/minecraft/client/gl/GlExtensionHandler
 		ARG 2 t
 	METHOD method_4292 activeTexture (I)V
 		ARG 0 texture
+	METHOD method_4293 getLwjglVersion ()Ljava/lang/String;
 	METHOD method_4295 framebufferRenderbuffer (IIII)V
 		ARG 0 target
 		ARG 1 attachment

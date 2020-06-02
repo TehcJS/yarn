@@ -1,3 +1,6 @@
 CLASS net/minecraft/class_17
+	FIELD field_68 color Lnet/minecraft/class_1767;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
+	METHOD method_70 getPosition ()Lnet/minecraft/class_2338;
+	METHOD method_72 getMapColof ()Lnet/minecraft/class_20$class_21;
